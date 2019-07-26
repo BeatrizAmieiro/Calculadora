@@ -1,0 +1,81 @@
+/* Adoro Material Design  Google e Dark Mode*/
+body {
+   background-color: #777;
+   font-family: Helvetica;
+}
+
+#cabecalho {
+	background-color: #00C5FF;
+	height: 30px;
+	text-align: center;
+	font-size: 18pt;
+	font-family: tahoma;
+	padding-top: 5px;
+   border-radius: 5px;
+}
+
+#visor {
+   width: 98%;
+   height: 70px;
+   margin-top: 10px;
+   background-color: #111;
+   color: white;
+   font-size: 30pt;
+   text-align: right;
+}
+
+section {
+   background-color: black;
+   color: white;
+   font-size: 12pt;
+   padding: 70px;
+   width: 300px;
+   margin: auto;
+   box-shadow: 5px 5px 10px #222;
+}
+
+table {
+   margin: 0 auto 0 auto;
+}
+
+form fieldset {
+   background-color: black;
+   color: white;
+   font-size: 12pt;
+   text-align: center;
+   margin: 50px auto 30px auto;
+   width: 30%;
+   border: solid black 1px;
+   border-radius: 5px;
+   padding: 0%;
+   margin-bottom: 10px;
+	box-shadow: 5px 5px 10px #222;
+}
+
+form input {
+   width: 100%;
+   border: solid #333 3px;
+   border-radius: 5px;
+   font-size: 11px;
+   margin-bottom: 10px; 
+}
+
+form input.num {
+   display: block;
+   width: 70px;
+   height: 70px;
+   background-color: #4F8EFF;
+   color: white;
+   font-size: 22pt;
+   font-weight: bold;
+}
+
+form input.oper {
+   display: block;
+   width: 70px;
+   height: 70px;
+   background-color: #00D2FF;
+   color: white;
+   font-size: 22pt; 
+   font-weight: bold; 
+}
